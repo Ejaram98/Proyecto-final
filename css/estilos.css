@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{margin: 0; padding: 0;}
+body{background: #000000;}
+.bg1{background: #000000; color:#FFFFFF;}
+.bg2{color: #0ED016;}
+.bg3{background: #095EFF; color:#FFFFFF;}
+.bg4{color: #FFFFFF;}
+.bg5{color:#000000;}
+.bg6{color: #315EFF;}
+.bg7{color: #FFFFFF;}
+.bg8{color: #000000; background: #FFFFFF;}
+.back{background: #3749EE;}
+
+
+html{scroll-behavior:smooth;}
+
+
+p{font-family: 'Rubik', sans-serif;}
+h1{ font-family: 'Noto Serif', serif;}
+h2{font-family: 'Titillium Web', sans-serif;}
+h3{font-size:20px;font-family: 'Lora', serif;}
+h4{font-family: 'PT Serif', serif;}
+
+.card{transition: 1s; background-color: rgba(176,234,255,0.8);}
+.card:hover{background: #FBCA82; transform: scale(0.8,0.8);}
+
+#bgimg{
+	background: url(../img/jimbg.png) no-repeat center fixed;
+	height: 100%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+.borde{
+	border-radius: 15px; }
+.borde:hover{box-shadow: 3px 3px 3px 3px yellow;}
+
+#fondo{
+	height: 100%;
+	background: url(../img/premios.jpg)no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
